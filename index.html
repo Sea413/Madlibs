@@ -10,27 +10,40 @@
 <body>
 <div class = "container">
   <div class = "row">
-    <h1>Say Hello Title</h1>
+    <h1>MadLibs</h1>
 
+    <div id="blanks">
+            <form>
+              <div class="form-group">
+                <label for="person1">A name</label>
+                <input id="person1" class="form-control" type="text">
+              </div>
+              <div class="form-group">
+                <label for="person2">Another name</label>
+                <input id="person2" class="form-control" type="text">
+              </div>
+              <div class="form-group">
+                <label for="animal">An animal</label>
+                <input id="animal" class="form-control" type="text">
+              </div>
+              <div class="form-group">
+                <label for="exclamation">An exclamation</label>
+                <input id="exclamation" class="form-control" type="text">
+              </div>
+              <div class="form-group">
+                <label for="verb">A past tense verb</label>
+                <input id="verb" class="form-control" type="text">
+              </div>
+              <div class="form-group">
+                <label for="noun">A noun</label>
+                <input id="noun" class="form-control" type="text">
+              </div>
 
-    <div class = "col-md-6">
-      <button class = "btn btn-primary" id = "hello">Say "hello"</button>
-      <button class = "btn btn-inverse" id = "goodbye">Say "goodbye"</button>
-      <button class = "btn btn-danger" id = "stop">Say "stop"</button>
+              <button class="btn">Show me the story!</button>
+            </form>
+          </div>
 
-      <ul id = "left">
-      </ul>
-    </div>
-
-    <div class = "col-md-6">
-      <ul id = "right">
-      </ul>
-
-
-
-    </div>
-
-
+    <p class = "show">One day, <span class="person1"></span> and <span class="person2"></span> were walking through the woods, when suddenly a giant <span class="animal"></span> appeared. "<span class="exclamation"></span>", <span class="person1"></span> cried. The two of them <span class="verb"></span> as quickly possible, and when they were safe, <span class="person2"></span> and <span class="person2"></span> gave each other a giant <span class="noun"></span>.</p>
 
 </div>
 </div>
